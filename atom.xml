@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Director-Ni.github.io</id>
+    <title>光宗耀组</title>
+    <updated>2024-10-02T07:41:51.158Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Director-Ni.github.io"/>
+    <link rel="self" href="https://Director-Ni.github.io/atom.xml"/>
+    <subtitle>新华中学2024级5班光宗耀组专属网站</subtitle>
+    <logo>https://Director-Ni.github.io/images/avatar.png</logo>
+    <icon>https://Director-Ni.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 光宗耀组</rights>
+    <entry>
+        <title type="html"><![CDATA[高二学长谈物理竞赛]]></title>
+        <id>https://Director-Ni.github.io/post/js1/</id>
+        <link href="https://Director-Ni.github.io/post/js1/">
+        </link>
+        <updated>2024-10-02T07:36:22.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="物理竞赛">物理竞赛</h1>
+<p>不知道在看这篇文章的您是什么年纪，也不知道您身处何方。您曾经，现在，或未来，是否行走在物竞的路上呢？</p>
+<p>这篇文章是写给报名xh物理竞赛的24级同学。如果您正是其中的一份子，在迎接选拔测试前，我们可以给您一些提示，我们不希望您因为事前的准备不够充分，而不能展示出自己的实力。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="物理竞赛">物理竞赛</h1>
+<p>不知道在看这篇文章的您是什么年纪，也不知道您身处何方。您曾经，现在，或未来，是否行走在物竞的路上呢？</p>
+<p>这篇文章是写给报名xh物理竞赛的24级同学。如果您正是其中的一份子，在迎接选拔测试前，我们可以给您一些提示，我们不希望您因为事前的准备不够充分，而不能展示出自己的实力。</p>
+<!-- more -->
+<p>本次测试的内容以微积分为主，请务必在测试前，尤其国庆假期期间抽出一段时间来学这些东西，开学后就没那么多时间了。如果您时间紧迫，没办法看完全部课程，也请尽量把其中的重点：微分、基础的积分、换元积分、分部积分、微分方程等部分，尤其换元积分和微分方程看完，并留出时间来消化。时间的沉淀是最好的老师，有些初看很难的知识，放两三个星期就理解深刻了。</p>
+<p>测试可能会捎带一些初高中课内知识，最多不会超过数学和物理的必修一。如果您有余力，可以抽出一段时间来学习数学的平面向量和三角函数、物理的受力分析和运动学部分，没有这么多空闲时间也没关系，我们会在各题目补充相应的资料。您不需要死记硬背公式，理解是掌握它的最好方式。</p>
+<!-- more -->
+<p>我们的测试题是按照一定的标准来出的。如果您发现考察的内容和您的预料有偏差，比如考察了您完全没有学过，也并没有人曾要求您学的内容，从考试前一直到阅卷完成期间您都可以联系我们，这可以帮助我们了解考生整体情况并作出相应调整。</p>
+<p>学习物理竞赛是漫长而辛苦的过程，这其中需要巨大的热爱和毅力。在竞赛的途中，可能会有无数人劝您放弃竞赛回归高考，他们的担忧不无道理，竞赛和高考只能靠您自己权衡。竞赛是一件费时间费精力的事，而竞赛的知识对高考的作用并不像机构宣传中那么大。绝大多数竞赛党的结局依然是回归高考，所以如果您从未学过物理竞赛，就请只把它当做青春限定的爱好好了，不要指望它代替高考，或者指望它对高考有那么大的意义。是否要在竞赛的路上一直走下去，只看您自己的想法。所以请务必认真思考后再作出决定。无论选择哪一条路，我都希望您能通过重重阻隔，到达梦想的彼岸。</p>
+<p>联系本文作者：1164973650@qq.com</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本站发帖方法]]></title>
+        <id>https://Director-Ni.github.io/post/fatie/</id>
+        <link href="https://Director-Ni.github.io/post/fatie/">
+        </link>
+        <updated>2024-09-29T00:16:31.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="markdown使用">markdown使用</h1>
+<h2 id="准备">准备</h2>
+<ol>
+<li>
+<p><strong>一个图床</strong>：这里推荐 <a href="https://www.superbed.cn/">聚合图床</a>。</p>
+</li>
+<li>
+<p>一个markdown写作工具：我用的是typora，但操作对新手不友好，我更推荐大家使用一些在线工具，比如<a href="https://markdown-editor.org/">markdown在线编辑器 - Markdown Editor (markdown-editor.org)</a>。</p>
+<h2 id="markdown是啥">markdown是啥</h2>
+<p><s>上网搜搜吧</s>，看似很难，其实二十分钟准学会</p>
+<p><em><strong>需要注意的是，所有除中文以外的符号均需在英文模式输入</strong></em></p>
+<h2 id="开干">开干！</h2>
+<h3 id="1标题">1.标题</h3>
+<p><strong>markdown没有字号设置，但有标题功能，类似字号</strong></p>
+</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://Director-Ni.github.io/post-images/1727597491810.png" alt="" loading="lazy"></figure>
+<p>如图，一个&quot;#&quot;后加一个空格就是一级标题，以此类推，<strong>点击左上角“H&quot;快速生成</strong></p>
+<h3 id="2-特殊格式">2. 特殊格式</h3>
+<p><img src="https://Director-Ni.github.io/post-images/1727597578034.png" alt="" loading="lazy"><br>
+如图，非常简单，点击左上的”B“ ”I“”S“快速设置，可叠加</p>
+<p><strong>但markdown不支持下划线，可用HTML语言代替</strong></p>
+<pre><code class="language-html">&lt;u&gt;这是下划线&lt;/u&gt;
+</code></pre>
+<p><u>这是下划线</u></p>
+<p>可见，在”<u></u>“里的文字会加上下划线</p>
+<h3 id="3插入图片">3.插入图片</h3>
+<h4 id="1普通图片">1）普通图片</h4>
+<ul>
+<li>
+<p>将图片上传到一个图床，至于为什么，可自行上网检索，下面以聚合图床为例展示<br>
+<a href="https://www.superbed.cn/">聚合图床</a></p>
+<p>登陆后根据提示直接上传</p>
+<ul>
+<li>选择markdown--复制</li>
+<li><img src="https://Director-Ni.github.io/post-images/1727597650220.png" alt="" loading="lazy"></li>
+</ul>
+</li>
+<li>
+<p>插入到文件</p>
+<p>切换回markdown编辑器，复制刚才的代码</p>
+<pre><code>![作者最棒](https://pic.imgdb.cn/item/66f898cff21886ccc0f71bb3.png)
+</code></pre>
+<p>*<em>注意：所有字符均为英文模式，其中，中括号里的内容为图片描述，可有可无；小括号的内容为图片链接，必须有</em></p>
+<p><strong>Tips：不要使用在线工具自带的上传本地图片功能，应为十分不稳定，脱离本地无法查看</strong></p>
+<h3 id="3插入其他链接超链接">3.插入其他链接（超链接）</h3>
+<p><img src="https://Director-Ni.github.io/post-images/1727597633093.png" alt="" loading="lazy"><br>
+点击”链接“工具，在中括号中输入要显示的文字，在小括号中输入对应链接，如图</p>
+<pre><code class="language-markdown">[光宗耀组](https://director-ni.github.io/)
+</code></pre>
+<p>即为<a href="https://director-ni.github.io/">光宗耀组</a>，读者可直接点击查看</p>
+<h2 id="这就是基本功能更多功能如表格-图表等自己摸索就会了"><strong>这就是基本功能，更多功能如表格、图表等自己摸索就会了</strong></h2>
+<h2 id="发布">发布</h2>
+<p>复制左侧的markdown代码，发给创作者即可（<a href="https://director-ni.github.io/post/about/">找到创作者</a>)</p>
+<h1 id="即日起至20241010投稿有随机红包返现"><em><strong>即日起至2024.10.10，投稿有随机红包返现</strong></em></h1>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[number1]]></title>
+        <id>https://Director-Ni.github.io/post/number1/</id>
+        <link href="https://Director-Ni.github.io/post/number1/">
+        </link>
+        <updated>2024-09-23T14:16:38.000Z</updated>
+        <content type="html"><![CDATA[<p>ggg<img src="https://Director-Ni.github.io/post-images/1727101022820.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本站介绍]]></title>
+        <id>https://Director-Ni.github.io/post/about/</id>
+        <link href="https://Director-Ni.github.io/post/about/">
+        </link>
+        <updated>2024-09-22T00:16:11.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>新华中学2024级5班光宗耀组专属网站</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>@Director Ni                        也是我组组长</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<p>创作者微信，添加请注明学校班级来意👇<br>
+<img src="https://Director-Ni.github.io/post-images/1727187355323.png" alt="" loading="lazy"><br>
+支持我，您的支持是我更新的最大动力👇<br>
+<img src="https://Director-Ni.github.io/post-images/1727187395300.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+</feed>

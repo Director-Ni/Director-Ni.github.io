@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>本站发帖方法 | 光宗耀组</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Director-Ni.github.io/favicon.ico?v=1727854908120">
+<link rel="stylesheet" href="https://Director-Ni.github.io/styles/main.css">
+
+
+  
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css" />
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="markdown使用
+准备
+
+
+一个图床：这里推荐 聚合图床。
+
+
+一个markdown写作工具：我用的是typora，但操作对新手不友好，我更推荐大家使用一些在线工具，比如markdown在线编辑器 - Markdown Editor (..." />
+    <meta name="keywords" content="站务" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Director-Ni.github.io">
+        <img src="https://Director-Ni.github.io/images/avatar.png?v=1727854908120" class="site-logo">
+        <h1 class="site-title">光宗耀组</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="https://Director-Ni.github.io/post/about" class="site-nav">
+            赞赏
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      新华中学2024级5班光宗耀组专属网站
+    </div>
+    <div class="site-footer">
+       <a href="https://pic.imgdb.cn/item/66f2cacef21886ccc002c496.jpg" target="_blank">支持我</a> | <a class="rss" href="https://Director-Ni.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">本站发帖方法</h2>
+            <div class="post-date">2024-09-29</div>
+            
+              <div class="feature-container" style="background-image: url('https://pic.imgdb.cn/item/66f89cbcf21886ccc0f95ebb.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <h1 id="markdown使用">markdown使用</h1>
+<h2 id="准备">准备</h2>
+<ol>
+<li>
+<p><strong>一个图床</strong>：这里推荐 <a href="https://www.superbed.cn/">聚合图床</a>。</p>
+</li>
+<li>
+<p>一个markdown写作工具：我用的是typora，但操作对新手不友好，我更推荐大家使用一些在线工具，比如<a href="https://markdown-editor.org/">markdown在线编辑器 - Markdown Editor (markdown-editor.org)</a>。</p>
+<h2 id="markdown是啥">markdown是啥</h2>
+<p><s>上网搜搜吧</s>，看似很难，其实二十分钟准学会</p>
+<p><em><strong>需要注意的是，所有除中文以外的符号均需在英文模式输入</strong></em></p>
+<h2 id="开干">开干！</h2>
+<h3 id="1标题">1.标题</h3>
+<p><strong>markdown没有字号设置，但有标题功能，类似字号</strong></p>
+</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://Director-Ni.github.io/post-images/1727597491810.png" alt="" loading="lazy"></figure>
+<p>如图，一个&quot;#&quot;后加一个空格就是一级标题，以此类推，<strong>点击左上角“H&quot;快速生成</strong></p>
+<h3 id="2-特殊格式">2. 特殊格式</h3>
+<p><img src="https://Director-Ni.github.io/post-images/1727597578034.png" alt="" loading="lazy"><br>
+如图，非常简单，点击左上的”B“ ”I“”S“快速设置，可叠加</p>
+<p><strong>但markdown不支持下划线，可用HTML语言代替</strong></p>
+<pre><code class="language-html">&lt;u&gt;这是下划线&lt;/u&gt;
+</code></pre>
+<p><u>这是下划线</u></p>
+<p>可见，在”<u></u>“里的文字会加上下划线</p>
+<h3 id="3插入图片">3.插入图片</h3>
+<h4 id="1普通图片">1）普通图片</h4>
+<ul>
+<li>
+<p>将图片上传到一个图床，至于为什么，可自行上网检索，下面以聚合图床为例展示<br>
+<a href="https://www.superbed.cn/">聚合图床</a></p>
+<p>登陆后根据提示直接上传</p>
+<ul>
+<li>选择markdown--复制</li>
+<li><img src="https://Director-Ni.github.io/post-images/1727597650220.png" alt="" loading="lazy"></li>
+</ul>
+</li>
+<li>
+<p>插入到文件</p>
+<p>切换回markdown编辑器，复制刚才的代码</p>
+<pre><code>![作者最棒](https://pic.imgdb.cn/item/66f898cff21886ccc0f71bb3.png)
+</code></pre>
+<p>*<em>注意：所有字符均为英文模式，其中，中括号里的内容为图片描述，可有可无；小括号的内容为图片链接，必须有</em></p>
+<p><strong>Tips：不要使用在线工具自带的上传本地图片功能，应为十分不稳定，脱离本地无法查看</strong></p>
+<h3 id="3插入其他链接超链接">3.插入其他链接（超链接）</h3>
+<p><img src="https://Director-Ni.github.io/post-images/1727597633093.png" alt="" loading="lazy"><br>
+点击”链接“工具，在中括号中输入要显示的文字，在小括号中输入对应链接，如图</p>
+<pre><code class="language-markdown">[光宗耀组](https://director-ni.github.io/)
+</code></pre>
+<p>即为<a href="https://director-ni.github.io/">光宗耀组</a>，读者可直接点击查看</p>
+<h2 id="这就是基本功能更多功能如表格-图表等自己摸索就会了"><strong>这就是基本功能，更多功能如表格、图表等自己摸索就会了</strong></h2>
+<h2 id="发布">发布</h2>
+<p>复制左侧的markdown代码，发给创作者即可（<a href="https://director-ni.github.io/post/about/">找到创作者</a>)</p>
+<h1 id="即日起至20241010投稿有随机红包返现"><em><strong>即日起至2024.10.10，投稿有随机红包返现</strong></em></h1>
+</li>
+</ul>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://Director-Ni.github.io/tag/wxIgVxNlB/" class="tag">
+                    站务
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://Director-Ni.github.io/post/number1/">
+                  <h3 class="post-title">
+                    number1
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+
+              
+                <div id="disqus_thread" data-aos="fade-in"></div>
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+
+  
+    <script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
+    <script>
+
+    var options = {
+      shortname: '',
+      apikey: '',
+    }
+    if ('') {
+      options.api = ''
+    }
+    var dsqjs = new DisqusJS(options)
+
+    </script>
+  
+
+
+
+
+  </body>
+</html>
